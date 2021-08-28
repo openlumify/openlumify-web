@@ -1,0 +1,2 @@
+define(['../actions'],function(actions){actions.protectFromWorker();return actions.createActions({workerImpl:'data/web-worker/store/user/actions-impl',actions:{putUser:function putUser(_ref){var user=_ref.user;return{user:user};},putUserPreferences:function putUserPreferences(_ref2){var preferences=_ref2.preferences;return{preferences:preferences};},setUserPreference:function setUserPreference(_ref3){var name=_ref3.name,value=_ref3.value;return{name:name,value:value};}}});});
+//# sourceMappingURL=actions.js.map

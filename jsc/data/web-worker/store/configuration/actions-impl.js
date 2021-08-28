@@ -1,0 +1,2 @@
+define(['../actions','../../util/ajax'],function(actions,ajax){actions.protectFromMain();var api={get:function get(_ref){var locale=_ref.locale;var data={};if(locale){if(locale.language)data.localeLanguage=locale.language;if(locale.country)data.localeCountry=locale.country;if(locale.variant)data.localeVariant=locale.variant;}return ajax('GET','/configuration',data).then(function(result){return api.update(result);});},update:function update(configuration){return{type:'CONFIGURATION_UPDATE',payload:configuration};}};return api;});
+//# sourceMappingURL=actions-impl.js.map

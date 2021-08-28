@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../js/util/flight/compat/logger.js"],"names":["define","flight","logger"],"mappings":"AACAA,OAAO,CAAC,QAAD,CAAP,CAAmB,SAASC,MAAT,CAAiB,CAChC,aACA,MAAOA,QAAOC,MAAd,CACH,CAHD","file":"logger.js","sourcesContent":["\ndefine(['flight'], function(flight) {\n    'use strict';\n    return flight.logger;\n})\n"]}

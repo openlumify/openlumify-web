@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../js/util/flight/compat/debug.js"],"names":["define","flight","debug"],"mappings":"AACAA,OAAO,CAAC,QAAD,CAAP,CAAmB,SAASC,MAAT,CAAiB,CAChC,aACA,MAAOA,QAAOC,KAAd,CACH,CAHD","file":"debug.js","sourcesContent":["\ndefine(['flight'], function(flight) {\n    'use strict';\n    return flight.debug;\n})\n"]}

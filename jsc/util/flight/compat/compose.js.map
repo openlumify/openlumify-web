@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../js/util/flight/compat/compose.js"],"names":["define","flight","compose"],"mappings":"AACAA,OAAO,CAAC,QAAD,CAAP,CAAmB,SAASC,MAAT,CAAiB,CAChC,aACA,MAAOA,QAAOC,OAAd,CACH,CAHD","file":"compose.js","sourcesContent":["\ndefine(['flight'], function(flight) {\n    'use strict';\n    return flight.compose;\n})\n"]}

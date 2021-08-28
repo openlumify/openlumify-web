@@ -1,0 +1,2 @@
+define(['../actions'],function(actions){actions.protectFromWorker();return actions.createActions({workerImpl:'data/web-worker/store/selection/actions-impl',actions:{add:function add(selection){return{selection:selection};},remove:function remove(selection){return{selection:selection};},set:function set(selection){return{selection:selection};},clear:function clear(){return{};}}});});
+//# sourceMappingURL=actions.js.map

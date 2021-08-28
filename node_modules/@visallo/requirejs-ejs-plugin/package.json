@@ -1,0 +1,21 @@
+{
+  "name": "@visallo/requirejs-ejs-plugin",
+  "description": "RequireJS EJS Plug-in",
+  "author": "Brad Whitcomb <git@bradwhitcomb.com>",
+  "version": "0.3.1",
+  "contributors": [
+    {
+      "name": "Brad Whitcomb",
+      "email": "brad@stockr.com"
+    }
+  ],
+  "bin": {
+    "server": "demo/server.js"
+  },
+  "scripts": {
+    "start": "node demo/server.js"
+  },
+  "dependencies": {
+    "express": "~3.1.1"
+  }
+}

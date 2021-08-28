@@ -1,0 +1,2 @@
+define(['../util/ajax','../store'],function(ajax,store){'use strict';return{list:function list(){return ajax('GET','/product/all');},create:function create(kind,title){return ajax('POST','/product',{title:title,kind:kind});},deleteProduct:function deleteProduct(productId){return ajax('DELETE','/product',{productId:productId});},get:function get(productId,includeExtended){return ajax('GET','/product',{productId:productId,includeExtended:includeExtended});}};});
+//# sourceMappingURL=product.js.map

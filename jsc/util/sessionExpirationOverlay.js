@@ -1,0 +1,2 @@
+define(['flight/lib/component','./sessionExpirationOverlayTpl.hbs'],function(defineComponent,template){return defineComponent(Overlay);function Overlay(){this.after('teardown',function(){if(this.overlay){this.overlay.remove();}});this.after('initialize',function(){var _this=this;require(['util/offlineOverlay'],function(Offline){if(!$(document).lookupComponent(Offline)){$(function(){_this.overlay=$(template()).appendTo(document.body);});}});});}});
+//# sourceMappingURL=sessionExpirationOverlay.js.map

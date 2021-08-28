@@ -1,0 +1,32 @@
+<?js
+    var self = this;
+    var isGlobalPage;
+
+    docs.forEach(function(doc, i) {
+?>
+
+<?js
+    // we only need to check this once
+    if (typeof isGlobalPage === 'undefined') {
+        isGlobalPage = (doc.kind === 'globalobj');
+    }
+?>
+<?js if (doc.kind === 'mainpage' || (doc.kind === 'package')) { ?>
+    <?js= self.partial('mainpage.tmpl', doc) ?>
+<?js } else if (doc.kind === 'source') { ?>
+    <?js= self.partial('source.tmpl', doc) ?>
+<?js } else { ?>
+<section>
+
+<article>
+    <h4 class="name">
+      <?js= self.linkto(doc.longname, doc.longname) ?>
+    </h4>
+    <div class="class-description"><?js= doc.classdesc ?></div>
+    <div class="description"><?js= doc.description ?></div>
+</article>
+
+</section>
+<?js } ?>
+
+<?js }); ?>

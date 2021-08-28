@@ -1,0 +1,2 @@
+var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};define([],function(){'use strict';return function screen(state,_ref){var type=_ref.type,payload=_ref.payload;if(!state)return{pixelRatio:1};switch(type){case'SCREEN_PIXELRATIO':return _extends({},state,{pixelRatio:payload.pixelRatio});}return state;};});
+//# sourceMappingURL=reducer.js.map

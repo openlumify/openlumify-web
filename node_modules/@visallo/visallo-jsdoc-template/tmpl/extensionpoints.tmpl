@@ -1,0 +1,36 @@
+<?js
+    var data = obj;
+    var self = this;
+    ?>
+<table class="extensionpoints">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <?js
+        data.forEach(function(point) {
+            if (!point) { return; }
+    ?>
+
+        <tr>
+            <?js if (point.name) {?>
+                <td class="name"><code><?js= point.name ?></code></td>
+            <?js } ?>
+
+            <td class="type">
+            <?js if (point.type && point.type.names) {?>
+                <?js= self.partial('type.tmpl', point.type.names) ?>
+            <?js } ?>
+            </td>
+
+            <td class="description last"><?js= point.description ?></td>
+        </tr>
+
+    <?js }); ?>
+    </tbody>
+</table>

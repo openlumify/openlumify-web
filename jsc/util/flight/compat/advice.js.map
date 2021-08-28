@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../js/util/flight/compat/advice.js"],"names":["define","flight","advice"],"mappings":"AACAA,OAAO,CAAC,QAAD,CAAP,CAAmB,SAASC,MAAT,CAAiB,CAChC,aACA,MAAOA,QAAOC,MAAd,CACH,CAHD","file":"advice.js","sourcesContent":["\ndefine(['flight'], function(flight) {\n    'use strict';\n    return flight.advice;\n})\n"]}

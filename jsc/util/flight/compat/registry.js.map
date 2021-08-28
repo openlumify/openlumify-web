@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../js/util/flight/compat/registry.js"],"names":["define","flight","registry"],"mappings":"AAAAA,OAAO,CAAC,QAAD,CAAP,CAAmB,SAASC,MAAT,CAAiB,CAChC,aACA,MAAOA,QAAOC,QAAd,CACH,CAHD","file":"registry.js","sourcesContent":["define(['flight'], function(flight) {\n    'use strict';\n    return flight.registry;\n})\n"]}

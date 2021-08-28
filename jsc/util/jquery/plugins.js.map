@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../js/util/jquery/plugins.js"],"names":["define","arguments"],"mappings":"AAAAA,OAAO,CACH,aADG,CAAP,CAEG,UAAW,CACV,aAEA,MAAOC,UAAP,CACH,CAND","file":"plugins.js","sourcesContent":["define([\n    './animation'\n], function() {\n    'use strict';\n\n    return arguments;\n})\n"]}

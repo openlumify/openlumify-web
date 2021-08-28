@@ -1,0 +1,2 @@
+define(['create-react-class','prop-types'],function(createReactClass,PropTypes){'use strict';var CloudImport=createReactClass({displayName:'CloudImport',propTypes:{},handleClick:function handleClick(){var vertexIds=this.props.process.vertexIds;$(this.button).trigger('selectObjects',{vertexIds:vertexIds});},render:function render(){var _this=this;return React.createElement('button',{className:'btn btn-mini',onClick:this.handleClick,ref:function ref(button){_this.button=button;}},'Open');}});return CloudImport;});
+//# sourceMappingURL=CloudImport.js.map

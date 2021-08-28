@@ -1,0 +1,2 @@
+define(['../actions'],function(actions){actions.protectFromMain();return{add:function add(_ref){var selection=_ref.selection;return{type:'SELECTION_ADD',payload:{selection:selection}};},remove:function remove(_ref2){var selection=_ref2.selection;return{type:'SELECTION_REMOVE',payload:{selection:selection}};},clear:function clear(){return{type:'SELECTION_CLEAR'};},set:function set(_ref3){var selection=_ref3.selection;return{type:'SELECTION_SET',payload:{selection:selection}};}};});
+//# sourceMappingURL=actions-impl.js.map
